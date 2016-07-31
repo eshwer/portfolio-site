@@ -1,3 +1,37 @@
+@font-face {
+    font-family: 'Overpass';
+    src: url(overpass/op_reg.ttf);
+}
+@font-face {
+    font-family: 'OverpassExtraLight';
+    src: url(overpass/op_extra_light.ttf);
+}
+@font-face {
+    font-family: 'OverpassExtraLightItalic';
+    src: url(overpass/op_extra_light_italic.ttf);
+}
+@font-face {
+    font-family: 'OverpassItalic';
+    src: url(overpass/op_italic.ttf);
+}
+@font-face {
+    font-family: 'OverpassLight';
+    src: url(overpass/op_light.ttf);
+}
+@font-face {
+    font-family: 'OverpassLightItalic';
+    src: url(overpass/op_light_italic.ttf);
+}
+@font-face {
+    font-family: 'OverpassBold';
+    src: url(overpass/op_bold.ttf);
+}
+
+
+body{
+	font-family: 'Overpass';
+}
+
 h1{
   color: blue;
 }
