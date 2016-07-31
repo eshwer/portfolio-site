@@ -27,11 +27,109 @@
     src: url(overpass/op_bold.ttf);
 }
 
-
 body{
-	font-family: 'Overpass';
+    font-family: 'OverpassLight';
+    font-size: 16px;
+}
+/*@media only screen and (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    h2 {
+        font-size: 175%;
+    }
+    p {
+        font-size: 100%;
+    }
+    .head {
+        font-size: 175%;
+    }
+}*/
+
+
+    body {
+        font-size: 2vw !important;
+    }
+    h1 {
+        font-size: 250% !important;
+    }
+    h2 {
+        font-size: 125% !important;
+    }
+    p {
+        font-size: 75% !important;
+    }
+    .head {
+        font-size: 150% !important;
+    }
+
+
+
+p {
+    font-family: OverpassLight;
+    font-size: 120%;
+}
+h1 {
+    font-size: 250%;
 }
 
-h1{
-  color: blue;
+/*work*/
+.jumbotron {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.jumbotron>h1 {
+  font-family: OverpassLight;
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 10%;
+}
+div.head{
+  font-family: OverpassExtraLight;
+  padding: 2%;
+  text-align: left;
+  font-size: 300%;
+  color: #e95a71;
+}
+.work-content {
+    padding: 10%;
+    padding-top: 5%;
+    background-color: #d8e9ef;
+}
+.work-heading {
+    color: #e85a71;
+    font-family: OverpassBold;
+}
+.work-footer {
+    background-color: #d8e9ef;
+    font-size: 80%;
+}
+/*umich*/
+.umich-jumbotron {
+  background-image: url("umich-blue.jpg");
+  background-size:cover;
+}
+/*desai*/
+.desai-jumbotron {
+  background-image: url("desai-blue.jpg");
+  background-size:cover;
+}
+/*wcbn*/
+.wcbn-jumbotron {
+  background-image: url("wcbnjumbo.jpg");
+  background-size:cover;
+}
+/*travelle*/
+.travelle-jumbotron {
+  background-image: url("travelle-desk3.jpg");
+  background-size:cover;
+}
+/*freelance*/
+.freelance-jumbotron {
+  background-image: url("elle-desk.jpg");
+  background-size:cover;
 }
