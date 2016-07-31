@@ -29,51 +29,20 @@
 
 body{
     font-family: 'OverpassLight';
-    font-size: 16px;
-}
-/*@media only screen and (max-width: 768px) {
-    body {
-        font-size: 12px;
-    }
-    h1 {
-        font-size: 200%;
-    }
-    h2 {
-        font-size: 175%;
-    }
-    p {
-        font-size: 100%;
-    }
-    .head {
-        font-size: 175%;
-    }
-}*/
-
-
-    body {
-        font-size: 2vw !important;
-    }
-    h1 {
-        font-size: 250% !important;
-    }
-    h2 {
-        font-size: 125% !important;
-    }
-    p {
-        font-size: 75% !important;
-    }
-    .head {
-        font-size: 150% !important;
-    }
-
-
-
-p {
-    font-family: OverpassLight;
-    font-size: 120%;
+    font-size: 2vw !important;
 }
 h1 {
-    font-size: 250%;
+    font-size: 250% !important;
+}
+h2 {
+    font-size: 125% !important;
+}
+p {
+    font-size: 75% !important;
+    font-family: OverpassLight;
+}
+.head {
+    font-size: 150% !important;
 }
 
 /*work*/
@@ -83,13 +52,14 @@ h1 {
   padding-top: 0px;
 }
 .jumbotron>h1 {
-  font-family: OverpassLight;
+  font-family: Overpass;
   text-align: center;
   padding-top: 8%;
   padding-bottom: 10%;
+  color: #FFFFFF;
 }
 div.head{
-  font-family: OverpassExtraLight;
+  font-family: OverpassLight;
   padding: 2%;
   text-align: left;
   font-size: 300%;
@@ -101,35 +71,51 @@ div.head{
     background-color: #d8e9ef;
 }
 .work-heading {
-    color: #e85a71;
+    color: #454552;
     font-family: OverpassBold;
+}
+.work-arrows {
+    padding-top: 5%;
+    vertical-align: center;
+}
+.a-work {
+    color: #000000;
+    font-size: 75%;
+}
+.a-work:hover {
+    color: #e85a71;
+    text-decoration: none;
+}
+.fa {
+    padding-top: 5%;
+    color:#e85a71;
 }
 .work-footer {
     background-color: #d8e9ef;
-    font-size: 80%;
+    font-size: 50%;
 }
 /*umich*/
 .umich-jumbotron {
-  background-image: url("umich-blue.jpg");
+  background-image: url("umich-dark.jpg");
   background-size:cover;
 }
 /*desai*/
 .desai-jumbotron {
-  background-image: url("desai-blue.jpg");
+  background-image: url("desai-dark.jpg");
   background-size:cover;
 }
 /*wcbn*/
 .wcbn-jumbotron {
-  background-image: url("wcbnjumbo.jpg");
+  background-image: url("wcbn-dark.jpg");
   background-size:cover;
 }
 /*travelle*/
 .travelle-jumbotron {
-  background-image: url("travelle-desk3.jpg");
+  background-image: url("travelle-desk-dark.jpg");
   background-size:cover;
 }
 /*freelance*/
 .freelance-jumbotron {
-  background-image: url("elle-desk.jpg");
+  background-image: url("elle-desk-dark.jpg");
   background-size:cover;
 }
