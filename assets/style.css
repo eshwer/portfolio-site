@@ -35,7 +35,7 @@ h1 {
     font-size: 250% !important;
 }
 h2 {
-    font-size: 125% !important;
+    font-size: 120% !important;
 }
 p {
     font-size: 75% !important;
@@ -68,17 +68,22 @@ div.head{
 .work-content {
     padding: 10%;
     padding-top: 5%;
+    padding-bottom:0px;
     background-color: #d8e9ef;
 }
 .work-heading {
     color: #454552;
     font-family: OverpassBold;
 }
+.work-image {
+  width: 100%;
+}
 .work-arrows {
     padding-top: 5%;
     vertical-align: center;
 }
 .a-work {
+    font-family: OverpassLightItalic;
     color: #000000;
     font-size: 75%;
 }
@@ -90,32 +95,48 @@ div.head{
     padding-top: 5%;
     color:#e85a71;
 }
+.dots {
+    text-align: right;
+}
 .work-footer {
     background-color: #d8e9ef;
     font-size: 50%;
+    text-align: center;
 }
 /*umich*/
 .umich-jumbotron {
-  background-image: url("umich-dark.jpg");
+  background-image: url("work-jumbotrons/umich-dark.jpg");
   background-size:cover;
 }
 /*desai*/
 .desai-jumbotron {
-  background-image: url("desai-dark.jpg");
+  background-image: url("work-jumbotrons/desai-dark.jpg");
   background-size:cover;
+}
+.desai-image {
+  width: 100%;
+}
+.col-sm-4 {
+  padding: 0px;
 }
 /*wcbn*/
 .wcbn-jumbotron {
-  background-image: url("wcbn-dark.jpg");
+  background-image: url("work-jumbotrons/wcbn-dark.jpg");
   background-size:cover;
+}
+.wcbn-image {
+  width: 100%;
+}
+.col-sm-6 {
+  padding: 0px;
 }
 /*travelle*/
 .travelle-jumbotron {
-  background-image: url("travelle-desk-dark.jpg");
+  background-image: url("work-jumbotrons/travelle-desk-dark.jpg");
   background-size:cover;
 }
 /*freelance*/
 .freelance-jumbotron {
-  background-image: url("elle-desk-dark.jpg");
+  background-image: url("work-jumbotrons/elle-desk-dark.jpg");
   background-size:cover;
 }
