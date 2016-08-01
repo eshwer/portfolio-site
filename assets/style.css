@@ -27,10 +27,13 @@
     src: url(overpass/op_bold.ttf);
 }
 
-@media only screen and (max-width: 768px) {
+  body{
+    font-family: 'OverpassLight';
+  }
+/*@media only screen and (max-width: 768px) {
   body{
       font-family: 'OverpassLight';
-      font-size: 4vw !important;
+      font-size: 16px !important;
   }
   h1 {
       font-size: 250% !important;
@@ -39,7 +42,7 @@
       font-size: 120% !important;
   }
   p {
-      font-size: 75% !important;
+      font-size: 100% !important;
       font-family: OverpassLight;
   }
   .head {
@@ -58,7 +61,7 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   body{
       font-family: 'OverpassLight';
-      font-size: 3vw !important;
+      font-size: 21px !important;
   }
   h1 {
       font-size: 250% !important;
@@ -67,7 +70,7 @@
       font-size: 120% !important;
   }
   p {
-      font-size: 75% !important;
+      font-size: 100% !important;
       font-family: OverpassLight;
   }
   .head {
@@ -86,7 +89,7 @@
 @media only screen and (min-width: 1024) {
   body{
       font-family: 'OverpassLight';
-      font-size: 2vw !important;
+      font-size: 26px !important;
   }
   h1 {
       font-size: 250% !important;
@@ -95,7 +98,7 @@
       font-size: 120% !important;
   }
   p {
-      font-size: 75% !important;
+      font-size: 100% !important;
       font-family: OverpassLight;
   }
   .head {
@@ -104,7 +107,7 @@
   .a-work {
     font-size: 100% !important;
   }
-}
+}*/
 
 
 
@@ -148,7 +151,7 @@ div.head{
 .a-work {
     font-family: OverpassLightItalic;
     color: #000000;
-    font-size: 150%;
+    /*font-size: 150%;*/
 }
 .a-work:hover {
     color: #e85a71;
@@ -163,7 +166,6 @@ div.head{
 }
 .work-footer {
     background-color: #d8e9ef;
-    font-size: 50%;
     text-align: center;
 }
 /*umich*/
