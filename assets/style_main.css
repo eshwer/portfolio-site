@@ -150,8 +150,7 @@ body {
 .arrow {
   position: relative;
   top: 120px;
-  left: 50%;
-  margin-left:-20px;
+  margin-left:48%;
 }
 
 .bounce {
