@@ -29,87 +29,17 @@
 
   body{
     font-family: 'OverpassLight';
+    font-size: 16px;
   }
-/*@media only screen and (max-width: 768px) {
-  body{
-      font-family: 'OverpassLight';
-      font-size: 16px !important;
-  }
-  h1 {
-      font-size: 250% !important;
-  }
-  h2 {
-      font-size: 120% !important;
-  }
-  p {
-      font-size: 100% !important;
-      font-family: OverpassLight;
-  }
-  .head {
-      font-size: 150% !important;
-  }
+
+@media only screen and (max-width: 1024px) {
   .dots {
     text-align: center !important;
   }
-  .col-sm-4, .col-sm-2 {
-    text-align: center !important;
-  }
-  .a-work {
-    font-size: 100% !important;
+  .work-arrows {
+    text-align: center;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  body{
-      font-family: 'OverpassLight';
-      font-size: 21px !important;
-  }
-  h1 {
-      font-size: 250% !important;
-  }
-  h2 {
-      font-size: 120% !important;
-  }
-  p {
-      font-size: 100% !important;
-      font-family: OverpassLight;
-  }
-  .head {
-      font-size: 150% !important;
-  }
-  .dots {
-    text-align: center !important;
-  }
-  .col-sm-4, .col-sm-2 {
-    text-align: center !important;
-  }
-  .a-work {
-    font-size: 100% !important;
-  }
-}
-@media only screen and (min-width: 1024) {
-  body{
-      font-family: 'OverpassLight';
-      font-size: 26px !important;
-  }
-  h1 {
-      font-size: 250% !important;
-  }
-  h2 {
-      font-size: 120% !important;
-  }
-  p {
-      font-size: 100% !important;
-      font-family: OverpassLight;
-  }
-  .head {
-      font-size: 150% !important;
-  }
-  .a-work {
-    font-size: 100% !important;
-  }
-}*/
-
-
 
 /*work*/
 .jumbotron {
