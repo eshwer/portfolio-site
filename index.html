@@ -23,7 +23,7 @@
   			<ul>
   				<a href="/assets/resume.pdf" target="_blank"><li>resume</li></a>
   				<a><li>contact</li></a>
-  				<a><li>portfolio</li></a>
+  				<a href="#portfolio"><li>portfolio</li></a>
   				<a href="/"><li>home</li></a>
   			</ul>
   		</div>
@@ -34,115 +34,87 @@
 		</div>
 	</div>
 	<div class="keywords">
-
+		<span id="adventurer" class="hidden">Adventurer...</span><span id="designer" class="hidden">Designer...</span><span id="builder" class="hidden">...Builder</span><span id="student" class="hidden">...Student</span>
 	</div>
-	<div class="tiles">
-		<a href="/umich"><div class="tile col-md-4 um-main" style="background-image: url('/assets/umich.jpg');">
+	<div class="tiles" id="portfolio">
+		<a href="/umich"><div class="tile col-md-4 um-tile" style="background-image: url('/assets/umich.jpg');">
 			<div class="tile-overlay um-elem col-md-12">
 				<h1>UM</h1>
 				<h1>X</h1>
 				<h2>School of Information</h2>
 			</div>
-			<div class="um-overlay hidden col-md-12">
-				<h2> Stuff stuff stuff</h2>
+			<div class="um-overlay overlay hidden col-md-12">
+				<div class="border">
+					<p>School of Information</p>
+				</div>
 			</div>
 		</div></a>
 		<a href="/desai">
-		<div class="tile col-md-4" style="background-image: url('/assets/desai.png');">
-			<div class="tile-overlay col-md-12">
+		<div class="tile col-md-4 desai-tile" style="background-image: url('/assets/desai.png');">
+			<div class="tile-overlay desai-no-hover col-md-12">
 				<h1>Desai</h1>
 				<h1>X</h1>
 				<h2>Design Intern</h2>
 			</div>
+			<div class="desai-overlay overlay hidden col-md-12">
+				<div class="border">
+					<p>Design Intern</p>
+				</div>
+			</div>
 		</div>
 		</a>
 		<a href="/wcbn">
-		<div class="tile col-md-4" style="background-image: url('/assets/wcbn.jpg');">
-			<div class="tile-overlay col-md-12">
+		<div class="tile col-md-4 wcbn-tile" style="background-image: url('/assets/wcbn.jpg');">
+			<div class="tile-overlay wcbn-no-hover col-md-12">
 				<h1>WCBN</h1>
 				<h1>X</h1>
 				<h2>Marketing Intern</h2>
 			</div>
+			<div class="wcbn-overlay overlay hidden col-md-12">
+				<div class="border">
+					<p>Marketing Intern</p>
+				</div>
+			</div>
 		</div>
 		</a>
 		<a href="/travelle">
-		<div class="tile col-md-4" style="background-image: url('/assets/_DSC4471.jpg');">
-			<div class="tile-overlay col-md-12">
+		<div class="tile travelle-tile col-md-4" style="background-image: url('/assets/_DSC4471.jpg');">
+			<div class="tile-overlay travelle-no-hover col-md-12">
 				<h1>Travelle</h1>
 				<h1>X</h1>
 				<h2>Web Design + Brand Development Intern</h2>
 			</div>
+			<div class="travelle-overlay overlay hidden col-md-12">
+				<div class="border">
+					<p>Web Design + Brand Development Intern</p>
+				</div>
+			</div>
 		</div>
 		</a>
 		<a href="/freelance">
-		<div class="tile col-md-4" style="background-image: url('/assets/IMG_2414.jpg');">
-			<div class="tile-overlay col-md-12">
+		<div class="tile freelance-tile col-md-4" style="background-image: url('/assets/IMG_2414.jpg');">
+			<div class="tile-overlay freelance-no-hover col-md-12">
 				<h1>Freelance</h1>
 				<h1>X</h1>
 				<h2>Work + Projects</h2>
 			</div>
-		</div>
-		</a>
-		<div class="tile col-md-4" style="background-image: url('/assets/umich.jpg');">
-			<div class="tile-overlay col-md-12">
-				<h1>Resume</h1>
+			<div class="freelance-overlay overlay hidden col-md-12">
+				<div class="border">
+					<p>Work + Projects</p>
+				</div>
 			</div>
 		</div>
-		<!-- <div class="tile col-md-4 col-sm-6 col-xs-12">
-		    <div class="hovereffect">
-		        <img class="img-responsive" src="/assets/umich.jpg" alt="">
-		        <h1>University of Michigan</h1>
-		        <div class="overlay">
-		        	
-					<a class="info" href="#">Stuf stuff stuff</a>
-		        </div>
-		    </div>
-		</div>
-		<div class="tile col-md-4 col-sm-6 col-xs-12">
-		    <div class="hovereffect">
-		        <img class="img-responsive" src="/assets/IMG_2414.jpg" alt="">
-		        <div class="overlay">
-		           <h1>Desai</h1>
-		           <a class="info" href="#">link here</a>
-		        </div>
-		    </div>
-		</div>
-		<div class="tile col-md-4 col-sm-6 col-xs-12">
-		    <div class="hovereffect">
-		        <img class="img-responsive" src="/assets/wcbn.jpg" alt="">
-		        <div class="overlay">
-		           <h1>WCBN-FM</h1>
-		           <a class="info" href="#">link here</a>
-		        </div>
-		    </div>
-		</div>
-		<div class="tile col-md-4 col-sm-6 col-xs-12">
-		    <div class="hovereffect">
-		        <img class="img-responsive" src="/assets/_DSC4471.jpg" alt="">
-		        <div class="overlay">
-		           <h2>Travelle</h2>
-		           <a class="info" href="#">link here</a>
-		        </div>
-		    </div>
-		</div>
-		<div class="tile col-md-4 col-sm-6 col-xs-12">
-	    	<div class="hovereffect">
-		        <img class="img-responsive" src="/assets/stock3.jpg">
-		        <div class="overlay">
-		           <h2>Freelance</h2>
-		           <a class="info" href="#">link here</a>
-		        </div>
-		    </div>
-		</div>
-		<div class="tile col-md-4 col-sm-6 col-xs-12">
-	    	<div class="hovereffect">
-		        <img class="img-responsive" src="/assets/umich.jpg" alt="">
-		        <div class="overlay">
-		           <h2>Resume</h2>
-		           <a class="info" href="#">link here</a>
-		        </div>
-		    </div>
-		</div> -->
+		</a>
+		<a href="/assets/resume.pdf" target="_blank"><div class="tile resume-tile col-md-4" style="background-image: url('/assets/umich.jpg');">
+			<div class="tile-overlay resume-no-hover col-md-12">
+				<h1>Resume</h1>
+			</div>
+			<div class="resume-overlay overlay hidden col-md-12">
+				<div class="border">
+					<p>See my full list of involvments</p>
+				</div>
+			</div>
+		</div></a>
 		<div style="height:200vh;">
 		</div>
 	</div>
