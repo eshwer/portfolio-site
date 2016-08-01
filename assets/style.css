@@ -54,12 +54,20 @@
   padding-bottom: 10%;
   color: #FFFFFF;
 }
-div.head{
+.elleshwer {
   font-family: OverpassLight;
   padding: 2%;
   text-align: left;
   font-size: 300%;
   color: #e95a71;
+}
+.elleshwer:hover {
+  font-family: OverpassLight;
+  padding: 2%;
+  text-align: left;
+  font-size: 300%;
+  color: #e95a71;
+  text-decoration: none;
 }
 .work-content {
     padding: 10%;
