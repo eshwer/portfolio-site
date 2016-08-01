@@ -19,13 +19,30 @@ body{
 }
 
 .menu-dropdown{
-	position: relative;
+/*	position: relative;*/
 	cursor: pointer;
 	z-index: 100 !important;
 	color: #e85a71;
-	float: right;
-	margin-right: 5%;
-	margin-top: -19%;
+/*	float: right;*/
+	right: 5%;
+	margin-top: -24%;
+	position: fixed;
+	font-size: 34px !important;
+	-webkit-transition: margin-top 500ms ease-out;
+    -moz-transition: margin-top 500ms ease-out;
+    -o-transition: margin-top 500ms ease-out;
+    transition: margin-top 500ms ease-out;
+}
+
+.menu-dropdown-non-home{
+/*	position: relative;*/
+	cursor: pointer;
+	z-index: 100 !important;
+	color: #e85a71;
+/*	float: right;*/
+	right: 5%;
+	margin-top: -4%;
+	position: fixed;
 	font-size: 34px !important;
 	-webkit-transition: margin-top 500ms ease-out;
     -moz-transition: margin-top 500ms ease-out;
@@ -41,7 +58,7 @@ body{
 }*/
 
 .navbar{
-	position: relative;
+	position: fixed;
 	z-index: 60;
 	margin-top: -20%;
 	float: right;
@@ -73,6 +90,39 @@ body{
 	color: #ffffff;
 }
 
+.navbar-non-home{
+	position: fixed;
+	z-index: 60;
+	margin-top: 0%;
+	float: right;
+	color: #ffffff;
+	width: 100%;
+	background-color: #454552;
+	padding-top: .5%;
+	padding-bottom: .5%;
+	-webkit-transition: margin-top 500ms ease-out;
+    -moz-transition: margin-top 500ms ease-out;
+    -o-transition: margin-top 500ms ease-out;
+    transition: margin-top 500ms ease-out;
+    font-family: 'OverpassExtraLight';
+}
+
+.navbar-non-home ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 10%;
+}
+
+.navbar-non-home li {
+	display: inline;
+	margin-left: 5%;
+	margin-top: .5%;
+	font-size: 20px;
+	float: right;
+	color: #ffffff;
+}
+
 .nav-hidden{
 	z-index: 60;
 	margin-top: -50% !important;
@@ -85,6 +135,15 @@ body{
 .nav-expanded{
 	z-index: 60;
 	margin-top: -20% !important;
+	-webkit-transition: margin-top 500ms ease-out;
+    -moz-transition: margin-top 500ms ease-out;
+    -o-transition: margin-top 500ms ease-out;
+    transition: margin-top 500ms ease-out;
+}
+
+.nav-expanded-non-home{
+	z-index: 60;
+/*	margin-top: 2% !important;*/
 	-webkit-transition: margin-top 500ms ease-out;
     -moz-transition: margin-top 500ms ease-out;
     -o-transition: margin-top 500ms ease-out;
