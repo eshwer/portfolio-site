@@ -269,4 +269,10 @@ body {
 	height: 100%;
 	padding: 3%;
 }
-
+.main-footer {
+    background-color: #454552;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100vw;
+    padding-top: 5%;
+}
