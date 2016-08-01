@@ -27,23 +27,86 @@
     src: url(overpass/op_bold.ttf);
 }
 
-body{
-    font-family: 'OverpassLight';
-    font-size: 2vw !important;
+@media only screen and (max-width: 768px) {
+  body{
+      font-family: 'OverpassLight';
+      font-size: 4vw !important;
+  }
+  h1 {
+      font-size: 250% !important;
+  }
+  h2 {
+      font-size: 120% !important;
+  }
+  p {
+      font-size: 75% !important;
+      font-family: OverpassLight;
+  }
+  .head {
+      font-size: 150% !important;
+  }
+  .dots {
+    text-align: center !important;
+  }
+  .col-sm-4, .col-sm-2 {
+    text-align: center !important;
+  }
+  .a-work {
+    font-size: 100% !important;
+  }
 }
-h1 {
-    font-size: 250% !important;
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body{
+      font-family: 'OverpassLight';
+      font-size: 3vw !important;
+  }
+  h1 {
+      font-size: 250% !important;
+  }
+  h2 {
+      font-size: 120% !important;
+  }
+  p {
+      font-size: 75% !important;
+      font-family: OverpassLight;
+  }
+  .head {
+      font-size: 150% !important;
+  }
+  .dots {
+    text-align: center !important;
+  }
+  .col-sm-4, .col-sm-2 {
+    text-align: center !important;
+  }
+  .a-work {
+    font-size: 100% !important;
+  }
 }
-h2 {
-    font-size: 120% !important;
+@media only screen and (min-width: 1024) {
+  body{
+      font-family: 'OverpassLight';
+      font-size: 2vw !important;
+  }
+  h1 {
+      font-size: 250% !important;
+  }
+  h2 {
+      font-size: 120% !important;
+  }
+  p {
+      font-size: 75% !important;
+      font-family: OverpassLight;
+  }
+  .head {
+      font-size: 150% !important;
+  }
+  .a-work {
+    font-size: 100% !important;
+  }
 }
-p {
-    font-size: 75% !important;
-    font-family: OverpassLight;
-}
-.head {
-    font-size: 150% !important;
-}
+
+
 
 /*work*/
 .jumbotron {
@@ -85,7 +148,7 @@ div.head{
 .a-work {
     font-family: OverpassLightItalic;
     color: #000000;
-    font-size: 75%;
+    font-size: 150%;
 }
 .a-work:hover {
     color: #e85a71;
