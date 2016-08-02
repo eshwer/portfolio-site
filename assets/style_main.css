@@ -22,7 +22,7 @@ body{
 .menu-dropdown{
 /*	position: relative;*/
 	cursor: pointer;
-	z-index: 100 !important;
+	z-index: 101 !important;
 	color: #e85a71;
 /*	float: right;*/
 	right: 5%;
@@ -37,7 +37,7 @@ body{
 
 .menu-dropdown-non-home{
 	cursor: pointer;
-	z-index: 100 !important;
+	z-index: 101 !important;
 	color: #e85a71;
 	right: 5%;
 	margin-top: -4%;
@@ -251,7 +251,7 @@ body {
 
 
 .overlay{
-	z-index:100;
+	z-index:59;
 /*	margin-top: -300px;*/
 	height: 300px;
 	box-sizing: border-box;
