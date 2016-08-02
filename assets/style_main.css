@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	background-color: #ffffff;
+  text-decoration: none;
 }
 .jumbo{
 	min-height: 100vh;
@@ -263,6 +264,9 @@ body {
     transition: all 0.5s ease;
     color: #454552;
 }
+
+.tiles a
+  {text-decoration: none; }
 
 .border{
 	border: 5px solid #454552;
