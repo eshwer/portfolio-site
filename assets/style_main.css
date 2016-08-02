@@ -274,5 +274,17 @@ body {
     color: #FFFFFF;
     text-align: center;
     width: 100vw;
-    padding-top: 5%;
+    padding-top: 40%;
+}
+
+.main-footer .fa{
+	padding-top: 2% !important;
+	padding-bottom: 2% !important;
+}
+
+@media only screen and (max-device-width: 480px) {
+	.main-footer {
+    	padding-top: 1%;
+    	padding-bottom: 2%;
+	}
 }
