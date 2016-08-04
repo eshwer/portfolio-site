@@ -66,28 +66,24 @@ $(document).ready(function(){
 			$('#student').addClass('hidden');
 		}
 		if($(window).scrollTop() + $(window).height() > $('.tiles').offset().top - 100 && $(window).scrollTop() + $(window).height() < $('.tiles').offset().top + 100){
-			console.log('Display 1');
 			$('#adventurer').removeClass('hidden');
 			$('#designer').addClass('hidden');
 			$('#builder').addClass('hidden');
 			$('#student').addClass('hidden');
 		}
 		if($(window).scrollTop() + $(window).height() > $('.tiles').offset().top + 100 && $(window).scrollTop() + $(window).height() < $('.tiles').offset().top + 250){
-			console.log('Display 2');
 			$('#adventurer').removeClass('hidden');
 			$('#designer').removeClass('hidden');
 			$('#builder').addClass('hidden');
 			$('#student').addClass('hidden');
 		}
 		if($(window).scrollTop() + $(window).height() > $('.tiles').offset().top + 250 && $(window).scrollTop() + $(window).height() < $('.tiles').offset().top + 400){
-			console.log('Display 3');
 			$('#adventurer').removeClass('hidden');
 			$('#designer').removeClass('hidden');
 			$('#builder').removeClass('hidden');
 			$('#student').addClass('hidden');
 		}
 		if($(window).scrollTop() + $(window).height() > $('.tiles').offset().top + 400){
-			console.log('Display 4');
 			$('#adventurer').removeClass('hidden');
 			$('#designer').removeClass('hidden');
 			$('#builder').removeClass('hidden');
