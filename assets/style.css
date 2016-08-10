@@ -124,6 +124,9 @@
 .work-center {
   margin-left: 42%;
 }
+.about-to-work {
+  margin-left: 48%;
+}
 .work-center-umich>i {
   padding-top: 3px;
   font-size: 24px;
@@ -203,4 +206,17 @@
 .freelance-jumbotron {
   background-image: url("work-jumbotrons/elle-desk-dark.jpg");
   background-size:cover;
+}
+/*about*/
+.about-jumbotron {
+  background-image: url("work-jumbotrons/aboutme.png");
+  background-size:cover;
+}
+/*contact*/
+.contact-jumbotron {
+  background-image: url("work-jumbotrons/contact.png");
+  background-size:cover;
+}
+.contact-me {
+  text-align: center;
 }
