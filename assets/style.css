@@ -54,7 +54,7 @@
   a.work-center {
     margin-left: 0px !important;
   }
-  .work-center-umich>i,  .work-center-umich , .work-center-travelle>i , .work-center-travelle , .work-center-freelance>i , .work-center-freelance  {
+  .work-center-travelle>i , .work-center-travelle , .work-center-freelance>i , .work-center-freelance  {
     padding-top: 25px !important;
     margin-left: 0px !important;
   }
@@ -126,13 +126,6 @@
 }
 .about-to-work {
   margin-left: 48%;
-}
-.work-center-umich>i {
-  padding-top: 3px;
-  font-size: 24px;
-}
-.work-center-umich {
-  margin-left: 25%;
 }
 .work-center-travelle>i {
   padding-top: 3px;
