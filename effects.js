@@ -1,13 +1,16 @@
 $(document).ready(function(){
 	console.log('Hello Ello');
 
-	$('.navbar a').click(function(){
-		$('.navbar').toggleClass('nav-hidden');
-		$('.navbar').toggleClass('nav-expanded');
-	});
-	$('.menu-dropdown').click(function(){
-		$('.navbar').toggleClass('nav-hidden');
-		$('.navbar').toggleClass('nav-expanded');
+	// $('.navbar a').click(function(){
+	// 	$('.navbar').toggleClass('nav-hidden');
+	// 	$('.navbar').toggleClass('nav-expanded');
+	// });
+	// $('.menu-dropdown').click(function(){
+	// 	$('.navbar').toggleClass('nav-hidden');
+	// 	$('.navbar').toggleClass('nav-expanded');
+	// });
+	$(".menu-collapsed").click(function() {
+	  $(this).toggleClass("menu-expanded");
 	});
 
 	$('.um-tile').hover(function(){
