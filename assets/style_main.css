@@ -412,4 +412,14 @@ body{
 	.main-footer h3{
 		font-size: 46px !important;
 	}
+  h1 {
+    font-size: 50px;
+  }
+  .border>h2 {
+    font-size: 36px;
+  }
+  .border>p {
+    font-size: 30px;
+  }
+
 }
