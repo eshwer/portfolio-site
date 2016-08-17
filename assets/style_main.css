@@ -368,20 +368,19 @@ body{
 	padding-bottom: 2% !important;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 768px) {
 	.main-footer {
-    	padding-top: 1%;
-    	padding-bottom: 2%;
+    	padding: 5%
 	}
 
 	.jumbo-header{
 		margin-top: 40%;
-		font-size: 90px;
+		font-size: 60px;
 	}
 
 	#bouncy-arrow{
-		width:80px;
-		height: 80px;
+		width:50px;
+		height:50px;
 	}
 	.arrow{
 		margin-left:45%;
@@ -412,14 +411,16 @@ body{
 	.main-footer h3{
 		font-size: 46px !important;
 	}
-  h1 {
-    font-size: 50px;
+  .bar {
+    left: 80%;
   }
-  .border>h2 {
-    font-size: 36px;
+  nav>ul {
+    padding-left: 0px; 
   }
-  .border>p {
-    font-size: 30px;
+  .keywords {
+    height: 120px;
   }
-
+  .keywords span {
+    font-size: 16px;
+  }
 }
