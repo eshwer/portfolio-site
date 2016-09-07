@@ -108,6 +108,9 @@
   width: 100%;
   padding-bottom: 10px;
 }
+.work-image-area {
+  padding-left: 0px;
+}
 .work-arrows {
   padding-bottom: 1%;
 }
@@ -162,6 +165,7 @@
     color: #FFFFFF;
     text-align: center;
     width: 100vw;
+    padding-bottom: 40px;
 }
 /*umich*/
 .umich-jumbotron {
@@ -203,7 +207,7 @@
 }
 /*about*/
 .about-jumbotron {
-  background-image: url("work-jumbotrons/aboutme.png");
+  background-image: url("work-jumbotrons/contact.png");
   background-size:cover;
 }
 /*contact*/

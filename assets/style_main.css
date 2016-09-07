@@ -298,6 +298,14 @@ body{
     transition: all 2s ease;
 }
 
+.tile h1{
+  line-height: 220px;
+  font-size: 28px !important;
+}
+ .tile h2{
+  font-size: 28px !important;
+}
+
 .tile-overlay{
 	background-color: rgba(69,69,82,.6);
 	width: 100%;
@@ -307,6 +315,8 @@ body{
 
 .tile-overlay:hover{
 	background-color: rgba(69,69,82,.9);
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s;
 }
 
 .keywords{
@@ -338,7 +348,7 @@ body{
 	height: 300px;
 	box-sizing: border-box;
 	padding:5%;
-	border: 1px solid #000000;
+	/*border: 1px solid #000000;*/
 	background-color: rgba(216, 233, 239, .85);
 	-webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -351,7 +361,7 @@ body{
   {text-decoration: none; }
 
 .border{
-	border: 5px solid #454552;
+	/*border: 5px solid #454552;*/
 	height: 100%;
 	padding: 3%;
 }
@@ -360,12 +370,15 @@ body{
     color: #FFFFFF;
     text-align: center;
     width: 100vw;
-    padding-top: 40%;
+    padding-top: 45%;
+    padding-bottom: 5%;
 }
 
 .main-footer .fa{
 	padding-top: 2% !important;
 	padding-bottom: 2% !important;
+  padding-right: 10px;
+  font-size: 24px;
 }
 
 @media only screen and (max-device-width: 768px) {
