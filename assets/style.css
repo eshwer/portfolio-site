@@ -30,6 +30,7 @@
   body{
     font-family: 'OverpassLight';
     font-size: 16px;
+    line-height: 28px;
   }
 
 @media only screen and (max-width: 1024px) {
@@ -54,13 +55,6 @@
   a.work-center {
     margin-left: 0px !important;
   }
-  .work-center-travelle>i , .work-center-travelle , .work-center-freelance>i , .work-center-freelance  {
-    padding-top: 25px !important;
-    margin-left: 0px !important;
-  }
-  .row {
-    text-align: center;
-  }
   .elleshwer {
     font-size: 30px !important;
   }
@@ -80,15 +74,15 @@
   color: #FFFFFF;
 }
 .elleshwer {
-  font-family: OverpassLight;
+  font-family: OverpassExtraLight;
   padding: 2%;
-  padding-top: 5%;
+  padding-top: 7%;
   text-align: left;
   font-size: 300%;
   color: #e95a71;
 }
 .elleshwer:hover, .elleshwer:focus {
-  font-family: OverpassLight;
+  font-family: OverpassExtraLight;
   text-align: left;
   font-size: 300%;
   color: #e95a71;
@@ -105,7 +99,7 @@
     font-family: OverpassBold;
 }
 .work-image {
-  width: 100%;
+  width: 90%;
   padding-bottom: 10px;
 }
 .work-image-area {
@@ -125,24 +119,10 @@
   font-size: 24px;
 }
 .work-center {
-  margin-left: 42%;
+  margin-left: 48%;
 }
 .about-to-work {
   margin-left: 48%;
-}
-.work-center-travelle>i {
-  padding-top: 3px;
-  font-size: 24px;
-}
-.work-center-travelle {
-  margin-left: 35%;
-}
-.work-center-freelance>i {
-  padding-top: 3px;
-  font-size: 24px;
-}
-.work-center-freelance {
-  margin-left: 40%;
 }
 .a-work {
     font-family: OverpassLightItalic;
@@ -156,6 +136,9 @@
 .fa {
     padding-top: 5%;
     color:#e85a71;
+}
+.fa:hover {
+  color: #4ea1d3;
 }
 .dots {
     text-align: right;
@@ -178,7 +161,7 @@
   background-size:cover;
 }
 .desai-image {
-  width: 100%;
+  width: 90%;
   padding-bottom: 10px;
 }
 .col-sm-4 {
