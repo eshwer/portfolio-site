@@ -73,6 +73,9 @@
   padding-bottom: 2%;
   color: #FFFFFF;
 }
+.head {
+  padding-top: 2%;
+}
 .elleshwer {
   font-family: OverpassExtraLight;
   padding: 2%;
@@ -85,7 +88,7 @@
   font-family: OverpassExtraLight;
   text-align: left;
   font-size: 300%;
-  color: #e95a71;
+  color: #4ea1d3;
   text-decoration: none;
 }
 .work-content {
@@ -139,6 +142,9 @@
 }
 .fa:hover {
   color: #4ea1d3;
+}
+.fa-arrow-left:hover, .fa-arrow-right:hover {
+  color: #e85a71;
 }
 .dots {
     text-align: right;
