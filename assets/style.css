@@ -95,13 +95,25 @@
     padding: 10%;
     padding-top: 5%;
     padding-bottom:5%;
-    background-color: #d8e9ef;
+    /*background-color: #d8e9ef;*/
+    background-color: #FFFFFF;
+}
+.work-images {
+    padding: 10%;
+    padding-top: 5%;
+    padding-bottom:5%;
+    /*background-color: #d8e9ef;*/
+    background-color: #FFFFFF;
 }
 .work-heading {
     color: #454552;
     font-family: OverpassBold;
 }
 .work-image {
+  width: 90%;
+  padding-bottom: 10px;
+}
+.work-image-freelance {
   width: 90%;
   padding-bottom: 10px;
 }
@@ -173,6 +185,7 @@
 .col-sm-4 {
   padding: 0px;
 }
+
 /*wcbn*/
 .wcbn-jumbotron {
   background-image: url("work-jumbotrons/wcbn-dark.jpg");
