@@ -29,6 +29,14 @@ $(document).ready(function(){
 		$('.desai-no-hover').removeClass('hidden');
 	});
 
+	$('.msc-tile').hover(function(){
+		$('.msc-overlay').removeClass('hidden');
+		$('.msc-no-hover').addClass('hidden');
+	}, function(){
+		$('.msc-overlay').addClass('hidden');
+		$('.msc-no-hover').removeClass('hidden');
+	});
+
 	$('.wcbn-tile').hover(function(){
 		$('.wcbn-overlay').removeClass('hidden');
 		$('.wcbn-no-hover').addClass('hidden');
