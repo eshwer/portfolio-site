@@ -147,6 +147,10 @@ body{
   margin-top: 5%;
 }
 
+.container {
+  width: 100%;
+}
+
 /*desai*/
 .desai-image {
   width: 100%;
