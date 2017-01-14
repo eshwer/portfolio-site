@@ -130,9 +130,9 @@ body{
   color: #4ea1d3;
 }
 
-.work-footer {
-    width: 100vw;
-    padding-bottom: 40px;
+.social {
+    width: 80%;
+    text-align: center;
 }
 
 /*explore*/
@@ -143,6 +143,8 @@ body{
 .explore-image {
   width: 80%;
   height: 200px;
+  padding-left: 5%;
+  margin-top: 5%;
 }
 
 /*desai*/
