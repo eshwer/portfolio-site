@@ -4,8 +4,8 @@ body{
   text-decoration: none;
   margin: 10%;
 }
-.jumbo{
-	/*min-height: 40vh;*/
+.jumbo p {
+	width: 90%
 }
 
 .jumbo-header{
@@ -345,22 +345,16 @@ body{
 		margin-top: -70% !important;
 	}
 
-	.main-footer h3{
-		font-size: 52px !important;
-	}
-	.main-footer h3{
-		font-size: 46px !important;
-	}
+	.main-footer p{
+    margin: 20px;
+  }
   .bar {
     left: 80%;
   }
   nav>ul {
     padding-left: 0px; 
   }
-  .keywords {
-    height: 120px;
-  }
-  .keywords span {
-    font-size: 16px;
+  .tile {
+    width: 100% !important;
   }
 }
