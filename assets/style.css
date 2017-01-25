@@ -57,7 +57,7 @@ body{
   a.work-center {
     margin-left: 0px !important;
   }
-  .elleshwer {
+  .head {
     font-size: 30px !important;
   }
 }
@@ -132,7 +132,7 @@ body{
 
 .social {
     width: 80%;
-    text-align: center;
+    text-align: left;
 }
 
 /*explore*/
@@ -142,7 +142,7 @@ body{
 }
 .explore-image {
   width: 80%;
-  height: 200px;
+  /*height: 150px;*/
   padding-left: 5%;
   margin-top: 5%;
 }
